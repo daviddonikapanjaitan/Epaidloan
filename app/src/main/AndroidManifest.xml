@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easypayui">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera2.full" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoTitleBar">
+        <activity android:name=".ConfirmationBuddiesLoanActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".LoanHistoryActivity" />
+        <activity android:name=".MoreInfoActivity" />
+        <activity android:name=".ListContactLoanActivity" />
+        <activity android:name=".AddContactLoanActivity" />
+        <activity android:name=".PayLoanActivity" />
+        <activity android:name=".AggrementActivity" />
+        <activity android:name=".GetLoanActivity" />
+        <activity android:name=".BayarPlnActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".ListRequestActivity" />
+        <activity android:name=".ListContactPaymentActivity" />
+        <activity android:name=".RequestLoanActivity" />
+        <activity android:name=".ListLoanContact" />
+        <activity android:name=".MakeLoanActivity" />
+        <activity android:name=".BillActivity" />
+        <activity android:name=".LoanActivity" />
+        <activity android:name=".ConfirmationRequestActivity" />
+        <activity android:name=".ConfirmationContactActivity" />
+        <activity android:name=".SentMoneyActivity" />
+        <activity android:name=".RequestMoneyActivity" />
+        <activity android:name=".ListContactActivity" />
+        <activity android:name=".AddContactActivity" />
+        <activity android:name=".PinActivity" />
+        <activity android:name=".QrCodeActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity android:name=".Scanner" />
+        <activity
+            android:name=".ScannerScanActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TransferActivity" />
+        <activity
+            android:name=".TopUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PinSentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+
+</manifest>

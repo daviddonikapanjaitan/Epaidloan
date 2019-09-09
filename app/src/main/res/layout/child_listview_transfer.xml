@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/childTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/anon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="aaaaaaaaaaaaaaaa"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/sentMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Sent it" />
+
+</LinearLayout>

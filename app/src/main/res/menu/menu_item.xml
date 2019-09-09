@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Profile"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/confContact"
+        android:title="Confirmation Buddies (Transfer)"/>
+
+    <item
+        android:id="@+id/confRequest"
+        android:title="Confirmaion Request (Transfer)"/>
+
+    <item
+        android:id="@+id/loanBuddies"
+        android:title="Confirmaion Buddies (Loan)"/>
+
+    <item
+        android:id="@+id/LogOut"
+        android:title="Log Out"/>
+
+</menu>
